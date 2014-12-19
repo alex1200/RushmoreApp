@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00CAA7B1A4377EE00FBD17D /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00CAA7A1A4377EE00FBD17D /* startViewController.swift */; };
+		F00CAA7D1A439DC000FBD17D /* landingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00CAA7C1A439DC000FBD17D /* landingViewController.swift */; };
+		F02E93FD1A1A6E09001BEDB6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02E93FC1A1A6E09001BEDB6 /* WebViewController.swift */; };
+		F02E93FF1A1A9D55001BEDB6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02E93FE1A1A9D55001BEDB6 /* WebKit.framework */; };
+		F02E94021A1AAC64001BEDB6 /* www in Resources */ = {isa = PBXBuildFile; fileRef = F02E94011A1AAC64001BEDB6 /* www */; };
+		F02E94041A1BD742001BEDB6 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02E94031A1BD742001BEDB6 /* GalleryViewController.swift */; };
+		F0A943F219EED19F0038F1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A943F119EED19F0038F1F4 /* AppDelegate.swift */; };
+		F0A943F419EED19F0038F1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A943F319EED19F0038F1F4 /* ViewController.swift */; };
+		F0A943F719EED19F0038F1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A943F519EED19F0038F1F4 /* Main.storyboard */; };
+		F0A943F919EED19F0038F1F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A943F819EED19F0038F1F4 /* Images.xcassets */; };
+		F0A943FC19EED19F0038F1F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0A943FA19EED19F0038F1F4 /* LaunchScreen.xib */; };
+		F0A9440819EED1A00038F1F4 /* Rushmore_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A9440719EED1A00038F1F4 /* Rushmore_SwiftTests.swift */; };
+		F0AFAAFE1A2FB858009C7951 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AFAAFD1A2FB858009C7951 /* art.scnassets */; };
+		F0AFAB011A2FB872009C7951 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AFAAFF1A2FB872009C7951 /* GameViewController.swift */; };
+		F0AFAB021A2FB872009C7951 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AFAB001A2FB872009C7951 /* ImageViewController.swift */; };
+		F0FFCEFE1A1FF29200DEBFB4 /* movieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFCEFD1A1FF29200DEBFB4 /* movieViewController.swift */; };
+		F0FFCF001A1FF76C00DEBFB4 /* PartnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFCEFF1A1FF76C00DEBFB4 /* PartnerViewController.swift */; };
+		F0FFCF021A23A45E00DEBFB4 /* digitalPresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFCF011A23A45E00DEBFB4 /* digitalPresViewController.swift */; };
+		F0FFCF041A23B24A00DEBFB4 /* helpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFCF031A23B24A00DEBFB4 /* helpViewController.swift */; };
+		F0FFCF061A23BDCC00DEBFB4 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFCF051A23BDCC00DEBFB4 /* homeViewController.swift */; };
+		F0FFCF0A1A24F53600DEBFB4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFCF071A24F53600DEBFB4 /* CollectionViewCell.swift */; };
+		F0FFCF0B1A24F53600DEBFB4 /* PhotoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFCF081A24F53600DEBFB4 /* PhotoThumbnail.swift */; };
+		F0FFCF0C1A24F53600DEBFB4 /* ViewPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFCF091A24F53600DEBFB4 /* ViewPhoto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0A9440219EED1A00038F1F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A943E419EED19F0038F1F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0A943EB19EED19F0038F1F4;
+			remoteInfo = Rushmore_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F00CAA7A1A4377EE00FBD17D /* startViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
+		F00CAA7C1A439DC000FBD17D /* landingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = landingViewController.swift; sourceTree = "<group>"; };
+		F02E93FC1A1A6E09001BEDB6 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F02E93FE1A1A9D55001BEDB6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F02E94011A1AAC64001BEDB6 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		F02E94031A1BD742001BEDB6 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		F0A943EC19EED19F0038F1F4 /* Rushmore_Swift3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rushmore_Swift3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A943F019EED19F0038F1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A943F119EED19F0038F1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0A943F319EED19F0038F1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0A943F619EED19F0038F1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0A943F819EED19F0038F1F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0A943FB19EED19F0038F1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F0A9440119EED19F0038F1F4 /* Rushmore_Swift3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rushmore_Swift3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A9440619EED1A00038F1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A9440719EED1A00038F1F4 /* Rushmore_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rushmore_SwiftTests.swift; sourceTree = "<group>"; };
+		F0AFAAFD1A2FB858009C7951 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F0AFAAFF1A2FB872009C7951 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F0AFAB001A2FB872009C7951 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		F0FFCEFD1A1FF29200DEBFB4 /* movieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movieViewController.swift; sourceTree = "<group>"; };
+		F0FFCEFF1A1FF76C00DEBFB4 /* PartnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnerViewController.swift; sourceTree = "<group>"; };
+		F0FFCF011A23A45E00DEBFB4 /* digitalPresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = digitalPresViewController.swift; sourceTree = "<group>"; };
+		F0FFCF031A23B24A00DEBFB4 /* helpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helpViewController.swift; sourceTree = "<group>"; };
+		F0FFCF051A23BDCC00DEBFB4 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		F0FFCF071A24F53600DEBFB4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F0FFCF081A24F53600DEBFB4 /* PhotoThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoThumbnail.swift; sourceTree = "<group>"; };
+		F0FFCF091A24F53600DEBFB4 /* ViewPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPhoto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0A943E919EED19F0038F1F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02E93FF1A1A9D55001BEDB6 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A943FE19EED19F0038F1F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F02E94091A1BDF9E001BEDB6 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		F0A943E319EED19F0038F1F4 = {
+			isa = PBXGroup;
+			children = (
+				F02E93FE1A1A9D55001BEDB6 /* WebKit.framework */,
+				F0A943EE19EED19F0038F1F4 /* Rushmore_Swift */,
+				F0A9440419EED1A00038F1F4 /* Rushmore_SwiftTests */,
+				F0A943ED19EED19F0038F1F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0A943ED19EED19F0038F1F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0A943EC19EED19F0038F1F4 /* Rushmore_Swift3D.app */,
+				F0A9440119EED19F0038F1F4 /* Rushmore_Swift3DTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0A943EE19EED19F0038F1F4 /* Rushmore_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F02E94091A1BDF9E001BEDB6 /* Documents */,
+				F0A943F119EED19F0038F1F4 /* AppDelegate.swift */,
+				F0A943F319EED19F0038F1F4 /* ViewController.swift */,
+				F0A943F519EED19F0038F1F4 /* Main.storyboard */,
+				F00CAA7A1A4377EE00FBD17D /* startViewController.swift */,
+				F00CAA7C1A439DC000FBD17D /* landingViewController.swift */,
+				F0FFCF031A23B24A00DEBFB4 /* helpViewController.swift */,
+				F0FFCF051A23BDCC00DEBFB4 /* homeViewController.swift */,
+				F0FFCF011A23A45E00DEBFB4 /* digitalPresViewController.swift */,
+				F0FFCEFD1A1FF29200DEBFB4 /* movieViewController.swift */,
+				F0FFCEFF1A1FF76C00DEBFB4 /* PartnerViewController.swift */,
+				F02E94031A1BD742001BEDB6 /* GalleryViewController.swift */,
+				F0FFCF071A24F53600DEBFB4 /* CollectionViewCell.swift */,
+				F0FFCF081A24F53600DEBFB4 /* PhotoThumbnail.swift */,
+				F0AFAAFF1A2FB872009C7951 /* GameViewController.swift */,
+				F0AFAB001A2FB872009C7951 /* ImageViewController.swift */,
+				F0FFCF091A24F53600DEBFB4 /* ViewPhoto.swift */,
+				F02E93FC1A1A6E09001BEDB6 /* WebViewController.swift */,
+				F0AFAAFD1A2FB858009C7951 /* art.scnassets */,
+				F0A943F819EED19F0038F1F4 /* Images.xcassets */,
+				F0A943FA19EED19F0038F1F4 /* LaunchScreen.xib */,
+				F0A943EF19EED19F0038F1F4 /* Supporting Files */,
+			);
+			path = Rushmore_Swift;
+			sourceTree = "<group>";
+		};
+		F0A943EF19EED19F0038F1F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F02E94011A1AAC64001BEDB6 /* www */,
+				F0A943F019EED19F0038F1F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0A9440419EED1A00038F1F4 /* Rushmore_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0A9440719EED1A00038F1F4 /* Rushmore_SwiftTests.swift */,
+				F0A9440519EED1A00038F1F4 /* Supporting Files */,
+			);
+			path = Rushmore_SwiftTests;
+			sourceTree = "<group>";
+		};
+		F0A9440519EED1A00038F1F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0A9440619EED1A00038F1F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0A943EB19EED19F0038F1F4 /* Rushmore_Swift3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A9440B19EED1A00038F1F4 /* Build configuration list for PBXNativeTarget "Rushmore_Swift3D" */;
+			buildPhases = (
+				F0A943E819EED19F0038F1F4 /* Sources */,
+				F0A943E919EED19F0038F1F4 /* Frameworks */,
+				F0A943EA19EED19F0038F1F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rushmore_Swift3D;
+			productName = Rushmore_Swift;
+			productReference = F0A943EC19EED19F0038F1F4 /* Rushmore_Swift3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0A9440019EED19F0038F1F4 /* Rushmore_Swift3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A9440E19EED1A00038F1F4 /* Build configuration list for PBXNativeTarget "Rushmore_Swift3DTests" */;
+			buildPhases = (
+				F0A943FD19EED19F0038F1F4 /* Sources */,
+				F0A943FE19EED19F0038F1F4 /* Frameworks */,
+				F0A943FF19EED19F0038F1F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0A9440319EED1A00038F1F4 /* PBXTargetDependency */,
+			);
+			name = Rushmore_Swift3DTests;
+			productName = Rushmore_SwiftTests;
+			productReference = F0A9440119EED19F0038F1F4 /* Rushmore_Swift3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0A943E419EED19F0038F1F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CyArk;
+				TargetAttributes = {
+					F0A943EB19EED19F0038F1F4 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F0A9440019EED19F0038F1F4 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F0A943EB19EED19F0038F1F4;
+					};
+				};
+			};
+			buildConfigurationList = F0A943E719EED19F0038F1F4 /* Build configuration list for PBXProject "Rushmore_Swift3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0A943E319EED19F0038F1F4;
+			productRefGroup = F0A943ED19EED19F0038F1F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0A943EB19EED19F0038F1F4 /* Rushmore_Swift3D */,
+				F0A9440019EED19F0038F1F4 /* Rushmore_Swift3DTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0A943EA19EED19F0038F1F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02E94021A1AAC64001BEDB6 /* www in Resources */,
+				F0A943F719EED19F0038F1F4 /* Main.storyboard in Resources */,
+				F0AFAAFE1A2FB858009C7951 /* art.scnassets in Resources */,
+				F0A943FC19EED19F0038F1F4 /* LaunchScreen.xib in Resources */,
+				F0A943F919EED19F0038F1F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A943FF19EED19F0038F1F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0A943E819EED19F0038F1F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A943F419EED19F0038F1F4 /* ViewController.swift in Sources */,
+				F00CAA7B1A4377EE00FBD17D /* startViewController.swift in Sources */,
+				F00CAA7D1A439DC000FBD17D /* landingViewController.swift in Sources */,
+				F0FFCF041A23B24A00DEBFB4 /* helpViewController.swift in Sources */,
+				F02E94041A1BD742001BEDB6 /* GalleryViewController.swift in Sources */,
+				F0FFCEFE1A1FF29200DEBFB4 /* movieViewController.swift in Sources */,
+				F0AFAB011A2FB872009C7951 /* GameViewController.swift in Sources */,
+				F0FFCF061A23BDCC00DEBFB4 /* homeViewController.swift in Sources */,
+				F0FFCF0B1A24F53600DEBFB4 /* PhotoThumbnail.swift in Sources */,
+				F0A943F219EED19F0038F1F4 /* AppDelegate.swift in Sources */,
+				F0FFCF021A23A45E00DEBFB4 /* digitalPresViewController.swift in Sources */,
+				F0FFCF0A1A24F53600DEBFB4 /* CollectionViewCell.swift in Sources */,
+				F0AFAB021A2FB872009C7951 /* ImageViewController.swift in Sources */,
+				F0FFCF001A1FF76C00DEBFB4 /* PartnerViewController.swift in Sources */,
+				F0FFCF0C1A24F53600DEBFB4 /* ViewPhoto.swift in Sources */,
+				F02E93FD1A1A6E09001BEDB6 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A943FD19EED19F0038F1F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A9440819EED1A00038F1F4 /* Rushmore_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0A9440319EED1A00038F1F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0A943EB19EED19F0038F1F4 /* Rushmore_Swift3D */;
+			targetProxy = F0A9440219EED1A00038F1F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0A943F519EED19F0038F1F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A943F619EED19F0038F1F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0A943FA19EED19F0038F1F4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A943FB19EED19F0038F1F4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0A9440919EED1A00038F1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F0A9440A19EED1A00038F1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0A9440C19EED1A00038F1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Rushmore_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Rushmore_Swift3D;
+				PROVISIONING_PROFILE = "D04A1D8B-6614-4EE1-8383-48E86DB6A6FE";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rushmore_Swift/Rushmore_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F0A9440D19EED1A00038F1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Rushmore_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Rushmore_Swift3D;
+				PROVISIONING_PROFILE = "D04A1D8B-6614-4EE1-8383-48E86DB6A6FE";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rushmore_Swift/Rushmore_Swift-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		F0A9440F19EED1A00038F1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Rushmore_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Rushmore_Swift3DTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rushmore_Swift.app/Rushmore_Swift";
+			};
+			name = Debug;
+		};
+		F0A9441019EED1A00038F1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Rushmore_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Rushmore_Swift3DTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rushmore_Swift.app/Rushmore_Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0A943E719EED19F0038F1F4 /* Build configuration list for PBXProject "Rushmore_Swift3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A9440919EED1A00038F1F4 /* Debug */,
+				F0A9440A19EED1A00038F1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A9440B19EED1A00038F1F4 /* Build configuration list for PBXNativeTarget "Rushmore_Swift3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A9440C19EED1A00038F1F4 /* Debug */,
+				F0A9440D19EED1A00038F1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A9440E19EED1A00038F1F4 /* Build configuration list for PBXNativeTarget "Rushmore_Swift3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A9440F19EED1A00038F1F4 /* Debug */,
+				F0A9441019EED1A00038F1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0A943E419EED19F0038F1F4 /* Project object */;
+}

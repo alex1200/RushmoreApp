@@ -1,0 +1,495 @@
+
+		<div class="contentwindow" id="photosliderwrapper">
+		<div class="contentslider" id="photoslider" style="width:66000px;">
+			<table cellpadding="0" cellspacing="0"><tr>
+						<td width="1000" height="700" align="center" valign="middle">
+				<table><tr><td style="background:#000000;" align="center" width="100">
+					modifiedArray["p6"] = Photograph of the carving marks inside the Hall of Records"
+					modifiedArray["p7"] = "
+					modifiedArray[Photograph of the entrance to the Hall of Records, located in Monument Valley directly behind the Mountain Sculpture"
+					modifiedArray["p8"] = "Photograph of the team scanning inside the Hall of Records"
+					modifiedArray["p10"] = "Photograph of the Sculptor's Studio during the winter season"
+					modifiedArray["p11"] = "Photograph of George Washington and the granite mountain taken from below"
+					modifiedArray["p12"] = "Photograph of Lincoln overlooking the Black Hills landscape"
+					modifiedArray["p13"] = "Photograph of the ropes team performing a scan of Lincoln's face using the tripod rig"
+					modifiedArray["p14"] = "Photograph showing the honeycomb pattern on Theodore Roosevelt's moustache"
+					modifiedArray["p15"] = "Photograph of George Washington taken from the Talus Slope below the sculpture. The ropes team can be seen ascending the Mountain Sculpture."
+					modifiedArray["p16"] = "Photograph of the ropes team performing a scan of Jefferson's face using the tripod rig"
+					modifiedArray["p17"] = "Photograph of the ropes team performing a scan of Jefferson's face"
+					modifiedArray["p18"] = "Photograph looking into the Hall of Records. Workers drilled channels into the rock to place dynamite."
+					modifiedArray["p19"] = "Photograph of the carving marks inside the Hall of Records"
+					modifiedArray["p1"] = "Photograph of George Washington with the ropes team ascending the mountain"
+					modifiedArray["p2"] = "Photograph of the carving marks inside the Hall of Records"
+					modifiedArray["p3"] = "Photograph of the team scanning inside the Sculptor's Studio. The scale model of the Mountain Sculpture can be seen in the background."
+					modifiedArray["p4"] = "Photograph of the team scanning the presidents near Theodore Roosevelt"
+					modifiedArray["p5"] = "Photograph of the ropes team performing a scan of Lincoln's face using the tripod rig"
+					modifiedArray["h1"] = "Historic photograph of early construction work on the Lincoln sculpture, showing dust from the dynamite blasts"
+					modifiedArray["h2"] = "Historic photograph of the Mountain Sculpture with a historic road and car in the foreground"
+					modifiedArray["h3"] = "Historic photograph of an early scale model in the first studio at Mount Rushmore"
+					modifiedArray["h4"] = "Historic photograph of Washington under construction"
+					modifiedArray["h5"] = "Historic aerial photograph of Washington and Jefferson under construction"
+					modifiedArray["h6"] = "Historic photograph of Mount Rushmore"
+					modifiedArray["h7"] = "Historic photograph of the Black Hills, prior to the construction of Mount Rushmore. This granite mountain was sacred to the Lakota Native Americans, who called it "Six Grandfathers"."	"
+					modifiedArray["h8"] = "Historic aerial photograph of Mount Rushmore under construction"
+					modifiedArray["h9"] = "Historic photograph of early construction work on the second Jefferson sculpture. An earlier Jefferson sculpture was attempted on the left side of Washington and demolished due to poor granite.					"
+					modifiedArray["h11"] = "Historic photograph of Borglum's scale model of Mount Rushmore"
+					modifiedArray["h13"] = "Historic photograph of Gutzon Borglum and a worker ascending the mountain in front of Thomas Jefferson"
+					modifiedArray["h14"] = "Historic photograph of Gutzon Borglum and two drillers working on Mount Rushmore"
+					modifiedArray["h16"] = "Historic photograph of Mount Rushmore under construction"
+					modifiedArray["h40"] = "Historic photograph of Borglum's scale model of Mount Rushmore"
+					modifiedArray["h42"] = "Historic photograph of President Coolidge delivering the dedication speech on August 10, 1927"
+					modifiedArray["h19"] = "Historic photograph of the first Jefferson sculpture to the left of Washington"
+					modifiedArray["h24"] = "Historic photograph of a worker descending from Washington's head in a Bosun chair"
+					modifiedArray["h27"] = "Historic photograph of Washington, taken from the historic route taken by workers to get to the Mountain Sculpture"
+					modifiedArray["h29"] = "Historic photograph of a driller "honeycombing" the mountain"
+					modifiedArray["h33"] = "Historic photograph showing early construction work on the second Jefferson sculpture. An earlier Jefferson sculpture was attempted on the left side of Washington and demolished due to poor granite."
+					modifiedArray["h35"] = "Historic photograph of Gutzon Borglum inspecting the face of Thomas Jefferson"
+					modifiedArray["h37"] = "Historic photograph of Gutzon Borglum inspecting the face of Thomas Jefferson"
+					modifiedArray["h38"] = "Historic photograph of Gutzon Borglum repelling off Mount Rushmore in a Bosun chair"
+					modifiedArray["h39"] = "Historic photograph of Borglum mounting an American flag on Mount Rushmore"
+					modifiedArray["h41"] = "Historic photograph of drillers working the sculpture in Bosun chairs"
+					modifiedArray["persp1"] = "Perspective of Lincoln's Mask, created from close-range scan data"
+					modifiedArray["persp2"] = "Perspective of mesh data from the 1/12 scale model found within the Sculptor's Studio, created from laser scan data"
+					modifiedArray["persp3"] = "Perspective of Mount Rushmore, created from laser scan data"
+					modifiedArray["persp4"] = "Transition image of the four presidents of Mount Rushmore and the scanning team, created from photography and laser scan data"
+					modifiedArray["persp6"] = "Perspective of the honeycomb pattern inside the Hall of Records, created from photo-textured laser scan data"
+					modifiedArray["persp7"] = "Perspective of George Washington, created from laser scan data"
+					modifiedArray["persp8"] = "Perspective of the Hall of Records, created from laser scan data"
+					modifiedArray["persp9"] = "Perspective of the honeycomb pattern inside the Hall of Records, created from laser scan data"
+					modifiedArray["persp10"] = "Perspective of Borglum's Viewing Terrace, created from laser scan data"
+					modifiedArray["persp11"] = "Perspective of the carving details of Lincoln's right eye, created from laser scan data"
+					modifiedArray["persp12"] = "Perspective of the ropes team performing a scan of Washington's head"
+					modifiedArray["persp13"] = "Perspective of the Hall of Records, created from photo-textured laser scan data"
+					modifiedArray["persp15"] = "Perspective of the Borglum Terrace taken from the northwest, created from photo-textured laser scan data"
+					modifiedArray["persp16"] = "Perspective of the Sculptor's Studio created from photo-textured laser scan data"
+					modifiedArray["persp17"] = "Perspective of the Avenue of Flags, created from photo-textured laser scan data"
+					modifiedArray["persp18"] = "Perspective of Abraham Lincoln, created from laser scan data"
+					modifiedArray["persp19"] = "Perspective of Theodore Roosevelt, created from laser scan data"
+					modifiedArray["persp20"] = "Perspective of George Washington, created from laser scan data"
+					modifiedArray["persp21"] = "Perspective of Thomas Jefferson, created from laser scan data"
+					modifiedArray["persp22"] = "Perspective of the Avenue of Flags, created from laser scan data"
+					modifiedArray["persp23"] = "Aerial view of Mount Rushmore, created from laser scan data overlaid onto aerial imagery"
+					modifiedArray["persp24"] = "Mesh of Thomas Jefferson and Theodore Roosevelt, created from laser scan data"
+					modifiedArray["persp25"] = "Mesh of Mount Rushmore, created from photo-textured laser scan data</div>
+					</center>
+									</td></tr></table>
+			</td>
+						</tr></table>
+		</div>
+		</div>
+
+		
+		<div class="bottombar">
+			<a href="#intro" class="fade" onclick="actuallyDoResetApplication();"><img src="img/button_start_over.png"></a>
+			<img src="img/button_divider.png">
+			<a href="#" class="goback"><img src="img/button_back.png"></a>
+			<img src="img/button_divider.png">
+			<a  href="#" onclick="togglePhotoGallery();return false;"><img id="photogalleryimg" src="img/button_gallery.png"></a>
+			<img  src="img/button_divider.png">
+			<div style="float:right;">
+				<img src="img/button_divider.png">
+				<a href="#help" class="flip"><img src="img/button_help.png"></a>
+			</div>
+		</div>
+			</div>
+
+		<div id="hphotos">
+
+		<div id="movieplayer" style="height:544px;text-align:center;padding-top:4px;">
+		</div>
+		<center>
+		<a href="#" onclick="loadMovie(1);"><img class="retina" src="img-rus/video_1.png" width="155" height="56" id="moviebutton1"></a>
+		<a href="#" onclick="loadMovie(2);"><img class="retina" src="img-rus/video_2.png" width="156" height="56" id="moviebutton2"></a>
+		<a href="#" onclick="loadMovie(3);"><img class="retina" src="img-rus/video_3.png" width="156" height="56" id="moviebutton3"></a>
+		<a href="#" onclick="loadMovie(4);"><img class="retina" src="img-rus/video_4.png" width="156" height="56" id="moviebutton4"></a>
+		<a href="#" onclick="loadMovie(5);"><img class="retina" src="img-rus/video_5.png" width="158" height="56" id="moviebutton5"></a>
+		<a href="#" onclick="loadMovie(6);"><img class="retina" src="img-rus/video_6.png" width="156" height="56" id="moviebutton6"></a>
+		
+				
+		</center>
+<div id="moviecaptionholders" style="display:block;" >
+		<div id="moviecaptions1" class="moviecaptions textholder" style="display:block;">
+Mount Rushmore, also known as the Shrine of Democracy, is a National Memorial depicting four of the most prominent presidents of the first 150 years of the United States - George Washington, Abraham Lincoln, Theodore Roosevelt, and Thomas Jefferson. Mount Rushmore was carved into South Dakota's Black Hills from 1927 to 1941 under the direction of sculptor Gutzon Borglum. The project took a team of 400 drillers and assistant carvers fourteen years to complete. Over 1.7 billion pounds of stone were removed using dynamite, detailed drilling, and finishing processes.		
+		</div>
+		<div id="moviecaptions2" class="moviecaptions textholder">
+George Washington, first president of the United States, led the early colonists in the American Revolutionary War to win independence from Great Britain. He was the father of the new country and laid the foundation of American democracy. Because of his importance, Washington is the most prominent figure on the mountain (1732-1799). George Washington's sculpture was started first on the mountain and dedicated on Independence Day in 1934.		
+		</div>
+		<div id="moviecaptions3" class="moviecaptions textholder">
+Thomas Jefferson, third president of the United States, was the author of the Declaration of Independence, a document which inspires democracies around the world. He also purchased the Louisiana Territory from France in 1803 which doubled the size of our country, adding all or part of fifteen present-day states (1743-1826). Thomas Jefferson's sculpture was started second on the mountain. Originally, the sculpture was started to the left of Washington but was later blasted off because of poor rock quality. A second Jefferson sculpture was started to the right of Washington and dedicated in 1936.
+		</div>
+		<div id="moviecaptions4" class="moviecaptions textholder">
+Abraham Lincoln, the 16th president of the United States, held the nation together during its greatest trial, the Civil War. Lincoln believed his most sacred duty was the preservation of the union. It was his firm conviction that slavery must be abolished (1809-1865). Abraham Lincoln's sculpture was started third on the mountain and was placed on the far right side of the cliff. The dedication ceremony took place on September 17, 1937, the 150th anniversary of the signing of the Constitution of the United States in 1787.
+		</div>
+		<div id="moviecaptions5" class="moviecaptions textholder">
+Theodore Roosevelt, 26th president of the United States, provided leadership when America experienced rapid economic growth as it entered the 20th Century. He was instrumental in negotiating the construction of the Panama Canal, linking the east and the west. He was known as the "trust buster" for his work to end large corporate monopolies and ensure the rights of the common working man (1858-1919). Theodore Roosevelt's sculpture was started fourth and had to be cut deeper into the mountain where there was better granite. The dedication ceremony took place on July 2, 1939.
+		</div>
+		<div id="moviecaptions6" class="moviecaptions textholder">
+Located along the small canyon behind the Mountain Sculpture, the Hall of Records is an unfinished chamber which was intended by sculptor Gutzon Borglum to be a repository of the American Story. Construction of the hall took place between July 1938 and July 1939, when a 70-foot tunnel was blasted into the mountain. It remains very roughly cut, and tapers to a point at the back. Work halted in 1939 when Congress directed that construction should be executed only on the faces. With Borglum's death in 1941 and American involvement in World War II, all work on the memorial came to a close on October 31, 1941.
+		</div>
+		</div>
+
+		
+		<div class="bottombar">
+			<a href="#intro" class="fade" onclick="actuallyDoResetApplication();"><img class="retina" src="img/button_start_over.png" width="192" height="52" ></a>
+			<img class="retina" src="img/button_divider.png" width="4" height="52" >			<a href="#" class="goback"><img class="retina" src="img/button_back.png" width="131" height="52" ></a>
+			<img class="retina" src="img/button_divider.png" width="4" height="52" >			<div style="float:right;">
+				<img class="retina" src="img/button_divider.png" width="4" height="52" >				<a href="#help" class="flip"><img class="retina" src="img/button_help.png" width="126" height="52" ></a>
+			</div>
+		</div>
+	</div>
+
+	
+	
+		<div id="cphotos">
+		<!--div style="font-size:42px;text-align:center;color:#fff;margin-top:300px;"><b><i>Page Coming Soon</i></b></div> -->
+		
+		<div id="movieplayer2" style="height:544px;text-align:center;padding-top:4px;"></div>
+		
+		<a href="#" onclick="loadMovie2(1);"><img class="retina" src="img-rus/DigitalPreservationProject_buttons_1.jpg" width="338" height="56" id="moviebutton21"></a><a href="#" onclick="loadMovie2(2);" style="margin-left:1px;margin-right:1px;"><img class="retina" src="img-rus/DigitalPreservationProject_buttons_2.jpg" width="338" height="56" id="moviebutton22"></a><a href="#" onclick="loadMovie2(3);"><img class="retina" src="img-rus/DigitalPreservationProject_buttons_3.jpg" width="338" height="56" id="moviebutton23"></a>
+
+		
+				
+		</center>
+<div id="moviecaptionholders2" style="display:block;" >
+		<div id="moviecaptions21" class="moviecaptions2 textholder">
+CyArk founder, Ben Kacyra, speaks from the Sculptor's Studio at Mount Rushmore National Memorial about the importance of safeguarding our collective history by digitally preserving imporant cultural heritage monuments. Film by Mike Brooks of Historic Scotland. Music: <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://freemusicarchive.org/music/Jahzzar/The_Crowd_excerpt/6_am_taxi"><span property="dct:title">6 a.m taxi</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://freemusicarchive.org/music/Jahzzar/"  style="color:#ff5;">Jahzzar</a>) / <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"  style="color:#ff5;">CC BY-SA 3.0</a></div>
+		</div>
+		<div id="moviecaptions22" class="moviecaptions2 textholder">
+Digital Preservation is a process that utilizes new technologies in surveying and imaging to document heritage sites in 3D and to accuracies that were never-before possible. The core technology is the portable 3D laser scanner, which was developed by CyArk founder, Ben Kacyra. Music: <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://freemusicarchive.org/music/Alastair_Cameron/Free_Film_Music_cameronmusiccouk/gentle_marimba"><span property="dct:title">gentle marimba</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://freemusicarchive.org/music/Alastair_Cameron/"  style="color:#ff5;">Alastair Cameron</a>) / <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"  style="color:#ff5;">CC BY 3.0</a></div>
+		</div>
+		<div id="moviecaptions23" class="moviecaptions2 textholder">
+In May of 2010, the National Park Service collaborated with CyArk and the Centre for Digital Documentation and Visualisation to laser scan the entire Mount Rushmore sculpture in order to create the most accurate model of it to-date. The resulting materials also allow for virtual tourism and new educational content which is freely accessible at <a href="http://archive.cyark.org/mount-rushmore-national-memorial-intro" style="color:#ff5;">CyArk's Mount Rushmore Portal</a>. <br>Music: <div style="display:inline;" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://freemusicarchive.org/music/Black_Twig_Pickers_and_Steve_Gunn/NATCH_1/Old_Strange_1598"><span property="dct:title">Old Strange</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://freemusicarchive.org/music/Black_Twig_Pickers_and_Steve_Gunn/"  style="color:#ff5;">Black Twig Pickers and Steve Gunn</a>) / <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/" style="color:#ff5;">CC BY-NC 3.0</a></div>and <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://freemusicarchive.org/music/Alastair_Cameron/Free_Film_Music_cameronmusiccouk/gentle_marimba"><span property="dct:title">gentle marimba</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://freemusicarchive.org/music/Alastair_Cameron/"  style="color:#ff5;">Alastair Cameron</a>) / <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"  style="color:#ff5;">CC BY 3.0</a></div>
+		</div>
+		
+</div>
+
+		
+		<div class="bottombar">
+			<a href="#intro" class="fade" onclick="actuallyDoResetApplication();"><img class="retina" src="img/button_start_over.png" width="192" height="52" ></a>
+			<img class="retina" src="img/button_divider.png" width="4" height="52" >			<a href="#" class="goback"><img class="retina" src="img/button_back.png" width="131" height="52" ></a>
+			<img class="retina" src="img/button_divider.png" width="4" height="52" >			<div style="float:right;">
+				<img class="retina" src="img/button_divider.png" width="4" height="52" >				<a href="#help" class="flip"><img class="retina" src="img/button_help.png" width="126" height="52" ></a>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	
+	
+	<div id="virtualtour">
+		<div id="mapinstructions" onclick="hideMapInstructions();"><div style="padding:50px;">
+			"Double Tap" to zoom in/out<br><br>
+			Tap a <img src="img/hotspot1_pano.png" height="45"> to view the Panoramic Image<br>
+			<span style="font-size:18px;">(Tap to close)</span><br>
+			<span style="font-size:12px;">Virtual tour audio narration by Brian W. Roberts</span>
+		</div></div>
+		<div id="mapholder">
+			<div id="mapholderinner">
+
+				<img id="img0" class="tileimg" src="img-rus/rushmore_basemap_0_0.png" style="position:absolute;top:0px;left:0px;">
+				<img id="img1" class="tileimg" src="img-rus/rushmore_basemap_1_0.png" style="position:absolute;top:0px;left:1024px;">
+
+				<img id="img2" class="tileimg" src="img-rus/rushmore_basemap_0_1.png" style="position:absolute;top:983px;left:0px;">
+				<img id="img3" class="tileimg" src="img-rus/rushmore_basemap_1_1.png" style="position:absolute;top:983px;left:1024px;">
+<a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(91);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:902px;top:892px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(61);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:161px;top:241px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(65);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:409px;top:567px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(92);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1018px;top:842px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(66);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:856px;top:849px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(67);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1022px;top:982px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(68);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1057px;top:1035px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(69);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1154px;top:623px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(71);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1078px;top:630px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(73);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1244px;top:467px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(77);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1036px;top:377px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(79);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:478px;top:484px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(82);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:326px;top:387px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(83);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:407px;top:776px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(84);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:330px;top:720px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(85);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:386px;top:607px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(86);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:643px;top:314px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(87);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:969px;top:773px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(89);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1224px;top:414px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(90);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:747px;top:919px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(108);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:587px;top:842px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(110);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:934px;top:936px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(111);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1150px;top:676px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(112);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1050px;top:756px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(113);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:60px;top:205px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(115);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:13px;top:175px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(116);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:150px;top:288px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(117);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1055px;top:703px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(118);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:802px;top:337px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(119);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:543px;top:450px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(120);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:851px;top:945px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(121);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:944px;top:839px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(122);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:752px;top:746px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(123);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1180px;top:557px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(124);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1173px;top:391px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a><a id="link_pano_id0" class="slide" href="#pano" onclick="selectpano(125);">
+		<img class="hotspot" src="img/hotspot1_pano.png" width="80" style="left:1291px;top:387px;"
+		ontouchstart="this.src='img/hotspot1_panored.png'"
+		onmousedown="this.src='img/hotspot1_panored.png'"
+		ontouchend="this.src='img/hotspot1_pano.png'"
+		onmouseup="this.src='img/hotspot1_pano.png'"
+		></a>
+
+			</div>
+		</div>
+		
+		<div class="bottombar">
+			<a href="#intro" class="fade" onclick="actuallyDoResetApplication();"><img class="retina" src="img/button_start_over.png" width="192" height="52" ></a>
+			<img class="retina" src="img/button_divider.png" width="4" height="52" >			<a href="#" class="goback"><img class="retina" src="img/button_back.png" width="131" height="52" ></a>
+			<img class="retina" src="img/button_divider.png" width="4" height="52" >			<span id="latlonoutput"></span>
+						<div style="float:right;">
+				<img class="retina" src="img/button_divider.png" width="4" height="52" >				<a href="#help" class="slide"><img class="retina" src="img/button_help.png" width="126" height="52" ></a>
+			</div>
+		</div>
+		
+	</div>
+ 
+ 
+
+	<div id="pano">
+		<!-- div class="toolbar">
+			<h1>Mount Rushmore Virtual Tour</h1>
+			<a class="button back" href="#">Back</a>
+		</div-->
+		<div class="panoloading" style="color:#fff;">Loading ...</div>
+		<div id="viewport"></div>
+		<div style="position:absolute;top:10px;right:10px;border:1px solid #000;opacity:0.7;filter:alpha(opacity=70);" onclick="hideShowPanoRadarMap(false)" id="radarmap"></div>
+		<div style="position:absolute;top:10px;right:10px;"><a href="#" onclick="hideShowPanoRadarMap(true)" id="showradarmap"  class="grayButton" style="display:inline;opacity:.8;font-weight:normal;font-size:16px;">show keymap</a></div>
+
+		
+				
+				<div style="position:absolute;width:28px;height:28px;left:28px;top:0px;" onclick="setHeading(0,0);"></div>
+		<div style="position:absolute;width:28px;height:28px;left:28px;top:51px;" onclick="setHeading(180,0);"></div>
+
+		<div style="position:absolute;width:28px;height:28px;left:0px;top:23px;" onclick="setHeading(270,0);"></div>
+		<div style="position:absolute;width:28px;height:28px;left:56px;top:23px;" onclick="setHeading(90,0);"></div>
+		
+		<div class="secondbottombar" id="panocaption" style="opacity:.8;padding-left:10px;padding-right:10px;width:1004px;"></div>
+
+		<div class="bottombar">
+			<a href="#" class="goback"><img class="retina" src="img/button_map.png" width="130" height="52" ></a>
+			<img class="retina" src="img/button_divider.png" width="4" height="52" >			<a href="#home" class="slide"><img class="retina" src="img/button_home.png" width="143" height="52" ></a>
+			<img class="retina" src="img/button_divider.png" width="4" height="52" >			<span id="playpause">
+				<a href="#" onclick="pause();return false;"><img class="retina" src="img/VirtualTour_buttons_spin_on.png" width="92" height="52" ></a>
+			</span>
+			<img class="retina" src="img/button_divider.png" width="4" height="52" >			<span id="touchmode">				
+			</span>
+			
+			<span id="restartmusic">
+				<img class="retina" src="img/button_divider.png" width="4" height="52" >				<img class="retina" src="img/replay_audio.png" width="167" height="52" id="replayaudioimg" onclick="restartMusic(0);">			</span>
+			
+			
+			<span id="output"></span>
+			<span id="mp3"></span>
+
+
+		</div>
+		<a href="#hotspot" class="flip" id="gotohotspotpage"></a>
+	</div>
+
+
+ 
+ 
+ 
+ 
+ <div id="hotspot">
+	 <div class="toolbar">
+	 <h1>Mount Rushmore Media Element</h1>
+	 <a class="button back" href="#">Back</a>
+	 	</div>
+<div id="hotspot88" class="descpage" style="display:none;text-align:center;color:#fff;"><br><br><EMBED SRC="img-rus/media/mountrushmoreintensity.mov" class="widemov" AUTOPLAY="TRUE" scale="tofit" width="700" height="400"></EMBED><br>Animation of the Mountain Sculpture, created from laser scan data</div><div id="hotspot84" class="descpage" style="display:none;text-align:center;color:#fff;"><br><br><EMBED SRC="img-rus/media/gw_head.mov" class="widemov" AUTOPLAY="TRUE" scale="tofit" width="700" height="400"></EMBED><br>Animation of George Washington, created from laser scan data</div><div id="hotspot83" class="descpage" style="display:none;text-align:center;color:#fff;"><br><br><EMBED SRC="img-rus/media/al_head_large.mov" class="widemov" AUTOPLAY="TRUE" scale="tofit" width="700" height="400"></EMBED><br>Animation of Abraham Lincoln, created from laser scan data</div><div id="hotspot155" class="descpage" style="display:none;text-align:center;color:#fff;"><br><br><EMBED SRC="img-rus/media/hall_of_records.mov" class="widemov" AUTOPLAY="TRUE" scale="tofit" width="700" height="400"></EMBED><br>Animation of the Hall of Records, created from laser scan data</div><div id="hotspot160" class="descpage" style="display:none;text-align:center;color:#fff;"><br><br><EMBED SRC="img-rus/media/tr_head.mov" class="widemov" AUTOPLAY="TRUE" scale="tofit" width="700" height="400"></EMBED><br>Animation of Theodore Roosevelt, created from laser scan data</div><div id="hotspot161" class="descpage" style="display:none;text-align:center;color:#fff;"><br><br><EMBED SRC="img-rus/media/tj_head.mov" class="widemov" AUTOPLAY="TRUE" scale="tofit" width="700" height="400"></EMBED><br>Animation of Thomas Jefferson, created from laser scan data</div> </div>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

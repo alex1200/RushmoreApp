@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vmM-sY-oXF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="hNm-Cj-JUE">
+            <objects>
+                <viewController storyboardIdentifier="startViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vmM-sY-oXF" customClass="startViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PX4-Mh-syp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Igr-bD-WAj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ilk-qA-TQm">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0_dual_intro" translatesAutoresizingMaskIntoConstraints="NO" id="OhF-lK-vTG">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwi-C0-mlv">
+                                <rect key="frame" x="523" y="199" width="485" height="363"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dP5-ed-DSu" kind="show" id="Fud-nP-pVz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKr-Ya-7my">
+                                <rect key="frame" x="16" y="198" width="492" height="364"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="jfp-YT-MfK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ec1-Hd-PvG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1119" y="934"/>
+        </scene>
+        <!--Landing View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="landingViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Main-Page_button2" translatesAutoresizingMaskIntoConstraints="NO" id="MMu-Ln-4hD">
+                                <rect key="frame" x="0.0" y="576" width="1024" height="192"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oH7-g2-T76" appends="YES" id="zqx-HN-QYH"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Main-Page_banner" translatesAutoresizingMaskIntoConstraints="NO" id="NP7-Fd-yra">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="576"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="w7Y-WS-Oje" appends="YES" id="41B-uZ-XAf"/>
+                                </connections>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUm-KK-aZO">
+                                <rect key="frame" x="828" y="64" width="124" height="47"/>
+                                <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="lcA-CM-nP6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="w7Y-WS-Oje">
+                    <connections>
+                        <segue destination="gYf-OM-SIs" kind="show" id="uVn-Xd-H2g"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="oH7-g2-T76">
+                    <connections>
+                        <segue destination="S0V-5N-yeZ" kind="show" id="RG6-VZ-EtT"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="165" y="427"/>
+        </scene>
+        <!--Partner View Controller-->
+        <scene sceneID="0eT-LW-ad8">
+            <objects>
+                <viewController id="S0V-5N-yeZ" customClass="PartnerViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vav-Oy-INQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wNk-sY-jno"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9AU-IA-WyB">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DigitalPreservation_CDDV_off" translatesAutoresizingMaskIntoConstraints="NO" id="be1-Qo-7Hz">
+                                <rect key="frame" x="0.0" y="518" width="337" height="154"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ed1-1g-6PW" appends="YES" id="Ni7-4T-qNR"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DigitalPreservation_CyArk_off" translatesAutoresizingMaskIntoConstraints="NO" id="lc1-iV-ZWb">
+                                <rect key="frame" x="344" y="518" width="337" height="154"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Le6-Ut-ATb" appends="YES" id="idy-8d-hIv"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DigitalPreservation_NPS_off" translatesAutoresizingMaskIntoConstraints="NO" id="zUa-9t-gbt">
+                                <rect key="frame" x="687" y="518" width="337" height="154"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AMa-Yl-lRI" appends="YES" id="owm-dh-9Dv"/>
+                                </connections>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ssW-9D-feT">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="yCw-wn-ZAX">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="g6V-Ui-pSM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="4T2-0J-8jU"/>
+                                    <barButtonItem title="Begin Program" id="iQQ-mb-EdR">
+                                        <connections>
+                                            <segue destination="gYf-OM-SIs" kind="show" id="BQz-oy-b1a"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="bLR-bg-Mjd"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="dU9-u9-zEA"/>
+                                    <barButtonItem title="Help" width="55" id="e90-o7-guF">
+                                        <connections>
+                                            <segue destination="IcE-Gv-0Jz" kind="show" id="4CD-rA-E8u"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DigitalPreservation_mainbanner" translatesAutoresizingMaskIntoConstraints="NO" id="3Z0-pU-JwU">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="173"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="CEr-ui-Qbq" appends="YES" id="smt-k2-wUQ"/>
+                                </connections>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JKT-sI-XEf">
+                                <rect key="frame" x="0.0" y="172" width="1024" height="346"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">The Digital Preservation of Mount Rushmore National Memorial was undertaken by the National Park service in collaboration with the Kacyra Family Foundation's CyArk project and the Centre for Digital Documentation and Visualisation (CDDV).\nField Documentation at Mount Rushmore, including laser scanning and photography, took place in May of 2010.  All the data collected has been used to create a variety of media for digital preservation.  This media will be used for the on-going preservation and conservation of the mountain and for public education and interpretation of the memorial.	</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="cddvButton" destination="be1-Qo-7Hz" id="JIV-LP-gS1"/>
+                        <outlet property="kffButton" destination="lc1-iV-ZWb" id="jOs-n7-X77"/>
+                        <outlet property="npsButton" destination="zUa-9t-gbt" id="IPT-b3-5Ex"/>
+                        <outlet property="partnerText" destination="JKT-sI-XEf" id="E6Y-QV-AFf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xud-8E-jjp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="AMa-Yl-lRI">
+                    <connections>
+                        <action selector="changePartnerNPS:" destination="S0V-5N-yeZ" id="gVz-cS-kJI"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Le6-Ut-ATb">
+                    <connections>
+                        <action selector="changePartnerKFF:" destination="S0V-5N-yeZ" id="dKV-1f-wWU"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Ed1-1g-6PW">
+                    <connections>
+                        <action selector="changePartnerCDDV:" destination="S0V-5N-yeZ" id="Kc3-uk-J8U"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="CEr-ui-Qbq">
+                    <connections>
+                        <action selector="changePartner:" destination="S0V-5N-yeZ" id="55Z-Ni-rNb"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1306" y="949"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="FIh-3u-c6g">
+            <objects>
+                <viewController id="IcE-Gv-0Jz" customClass="helpViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I0i-Ka-pEh"/>
+                        <viewControllerLayoutGuide type="bottom" id="QXf-E1-AAS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z9k-cX-cYL">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TLd-Hn-QfZ">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="724"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">HELP
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="24" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="24" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Viewing the Historical Slideshow:">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Touch a slide and drag your finger to the left or right.  You may use the same movements to move through the rest of the Slideshow.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+IAoKA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Accessing the Digital Archive:">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Touch the four buttons along the bottom of the screen and you will be taken to that area of the Digital Archive.  For example, if you would like to see the Virtual Tour of Mount Rushmore, touch the button that says "Virtual Tour."  You may explore the areas of the Digital Archive in any order.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+IAoKA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Navigating the Galleries of &quot;Images&quot; and &quot;Videos&quot;:">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Click the images within the Galleries. For Images, there are three galleries to choose from. When you see the image, click the left and right arrow buttons to flip through the available images.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+IAoKA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Exploring the Virtual Tour:">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">"Double Tap" to zoom in and out on the map. Click the icons to see panoramic images taken at different locations around Mount Rushmore. Within each panoramic image, you can drag your finger around to see the full panorama. You can also jump to other panoramas by clicking the hotspots within each panorama.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nID-Rp-Hwz">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="D46-uU-zkJ">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="ayM-Xz-aGk"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="0q9-Hb-iuQ"/>
+                                    <barButtonItem title="Back" id="uZa-kt-R8O">
+                                        <connections>
+                                            <segue destination="QGm-ul-Xp3" kind="unwind" unwindAction="unwindToViewController:" id="83A-Uo-KM3"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="Ja7-tt-E6M"/>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="helpText" destination="TLd-Hn-QfZ" id="pIx-9Z-hQS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ur0-zj-0cv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="QGm-ul-Xp3" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1306" y="1790"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="F96-vP-14V">
+            <objects>
+                <viewController id="gYf-OM-SIs" customClass="homeViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cZR-dT-MLg"/>
+                        <viewControllerLayoutGuide type="bottom" id="DxN-P7-q2B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7cd-NA-mC6">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Main_Buttons_VirtualTour" translatesAutoresizingMaskIntoConstraints="NO" id="gbY-Pn-Rf7">
+                                <rect key="frame" x="0.0" y="500" width="250" height="219"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="h5s-Ex-pJY" appends="YES" id="Qcb-we-8N3"/>
+                                </connections>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Main_Buttons_Photos" translatesAutoresizingMaskIntoConstraints="NO" id="aYb-V4-eSD">
+                                <rect key="frame" x="260" y="500" width="241" height="219"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="mbr-49-pdr" appends="YES" id="NwN-Al-woP"/>
+                                </connections>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Main_Buttons_DigitalPreservationProject" translatesAutoresizingMaskIntoConstraints="NO" id="7Xj-aF-Ibz">
+                                <rect key="frame" x="766" y="500" width="258" height="219"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="n4G-3J-EUv" appends="YES" id="Vtw-mo-kDI"/>
+                                </connections>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fla-YD-8W6">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="otL-Fo-1lS">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="pWR-YA-x2s"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="SZZ-w4-Gln"/>
+                                    <barButtonItem title="Back" id="hqb-gO-8GJ">
+                                        <connections>
+                                            <segue destination="omq-UW-BvO" kind="unwind" unwindAction="unwindToViewController:" id="xyF-uT-Sza"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Q2h-7x-qdP"/>
+                                    <barButtonItem title="Help" width="55" id="Im7-uW-NnG">
+                                        <connections>
+                                            <segue destination="IcE-Gv-0Jz" kind="show" id="P2N-ta-eCs"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Main_Buttons_Videos" translatesAutoresizingMaskIntoConstraints="NO" id="MBi-0G-OjA">
+                                <rect key="frame" x="511" y="500" width="247" height="219"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hR1-Ea-Yei" appends="YES" id="cmz-in-oCK"/>
+                                </connections>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zs0-cA-7VH">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="494"/>
+                                <subviews>
+                                    <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner_1" translatesAutoresizingMaskIntoConstraints="NO" id="NbJ-UN-f6i">
+                                        <rect key="frame" x="1024" y="0.0" width="1024" height="494"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner_2" translatesAutoresizingMaskIntoConstraints="NO" id="eSH-wc-PKp">
+                                        <rect key="frame" x="2048" y="0.0" width="1024" height="494"/>
+                                    </imageView>
+                                    <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner_3" translatesAutoresizingMaskIntoConstraints="NO" id="HCG-Si-m9I">
+                                        <rect key="frame" x="3072" y="0.0" width="1024" height="494"/>
+                                    </imageView>
+                                    <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner_4" translatesAutoresizingMaskIntoConstraints="NO" id="Ts3-7E-J2m">
+                                        <rect key="frame" x="4096" y="0.0" width="1024" height="494"/>
+                                    </imageView>
+                                    <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner_5" translatesAutoresizingMaskIntoConstraints="NO" id="93V-X3-R26">
+                                        <rect key="frame" x="5120" y="0.0" width="1024" height="494"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <imageView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner_6" translatesAutoresizingMaskIntoConstraints="NO" id="Gy7-OS-K6J">
+                                        <rect key="frame" x="6144" y="0.0" width="1024" height="494"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner_0" translatesAutoresizingMaskIntoConstraints="NO" id="JAr-n8-g5E">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="494"/>
+                                    </imageView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="7168" height="494"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="rect" keyPath="frame">
+                                        <rect key="value" x="0.0" y="0.0" width="1024" height="494"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G2Y-F9-PBh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="omq-UW-BvO" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="h5s-Ex-pJY">
+                    <connections>
+                        <segue destination="zCE-m3-a9I" kind="show" id="cjV-nb-wup"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="mbr-49-pdr">
+                    <connections>
+                        <segue destination="Oax-ab-pK6" kind="show" id="S8G-dd-MwJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="hR1-Ea-Yei">
+                    <connections>
+                        <segue destination="7CF-ZB-QAu" kind="show" id="Vdh-SC-BKc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="n4G-3J-EUv">
+                    <connections>
+                        <segue destination="Iux-vg-FwT" kind="show" id="Ok4-jO-1EE"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1306" y="136"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="sq6-xu-xIX">
+            <objects>
+                <viewController storyboardIdentifier="RUSSceneView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zCE-m3-a9I" customClass="WebViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3V-0e-BIt"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Bb-c3-45Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zE2-Td-ZZZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="i7n-2D-Chx">
+                                <rect key="frame" x="502" y="352" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <webView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" mediaPlaybackRequiresUserAction="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ub7-Lg-ZsP">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="724"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" calendarEvent="YES"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ccz-ql-NCO">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="ha7-em-Rfg">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" id="xpq-r0-esE"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="mqI-Jx-f4B"/>
+                                    <barButtonItem title="Back" id="kLF-4T-vt3">
+                                        <connections>
+                                            <segue destination="ula-V0-ErQ" kind="unwind" unwindAction="unwindToViewController:" id="7ni-8o-Slh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="aFX-SM-bZM"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="gmq-rr-ykW"/>
+                                    <barButtonItem title="Help" width="55" id="aoI-2S-UOO">
+                                        <connections>
+                                            <segue destination="IcE-Gv-0Jz" kind="show" id="Rad-is-AZu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="containerView" destination="zE2-Td-ZZZ" id="9qh-fz-yoj"/>
+                        <outlet property="loading" destination="i7n-2D-Chx" id="vIa-za-wFc"/>
+                        <outlet property="mainView" destination="zE2-Td-ZZZ" id="A7G-gd-uxi"/>
+                        <outlet property="mainWebView" destination="Ub7-Lg-ZsP" id="7k2-eR-9yz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x6X-KV-arl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ula-V0-ErQ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2420" y="-304"/>
+        </scene>
+        <!--Gallery View Controller-->
+        <scene sceneID="2dl-nB-CVo">
+            <objects>
+                <viewController id="Oax-ab-pK6" customClass="GalleryViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tOx-cU-hHs"/>
+                        <viewControllerLayoutGuide type="bottom" id="kEs-9a-Jhl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lUd-mT-82i">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yn1-ZY-gdm">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNs-ZI-yML">
+                                        <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <items>
+                                            <barButtonItem title="Start Over" id="Unj-Un-07H">
+                                                <connections>
+                                                    <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="v2s-fk-oBA"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="|" id="8hr-6y-gaB"/>
+                                            <barButtonItem title="Back" id="3qt-gC-9Kq">
+                                                <connections>
+                                                    <segue destination="VfU-pk-Rmh" kind="unwind" unwindAction="unwindToViewController:" id="8aS-BX-bB9"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="|" id="rVK-A8-i9J"/>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="lBS-84-I7A"/>
+                                            <barButtonItem title="Help" width="55" id="Jzj-zx-Zms">
+                                                <connections>
+                                                    <segue destination="IcE-Gv-0Jz" kind="show" id="59W-DU-Oqp"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </items>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </toolbar>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hZc-91-bE8">
+                                        <rect key="frame" x="0.0" y="44" width="1024" height="680"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="flk-pI-uNq">
+                                            <size key="itemSize" width="196" height="120"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="20" maxX="0.0" maxY="10"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZFF-QS-dUN">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                    <rect key="frame" x="0.0" y="0.0" width="196" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </view>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </collectionViewCell>
+                                        </cells>
+                                    </collectionView>
+                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L1U-BI-Ivn">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <items>
+                                            <navigationItem id="g9B-xL-hUE">
+                                                <nil key="title"/>
+                                                <segmentedControl key="titleView" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" id="Me0-oz-1Me">
+                                                    <rect key="frame" x="16" y="7" width="992" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <segments>
+                                                        <segment title="" image="Images_PhotosTab_on"/>
+                                                        <segment title="" image="Images_HistoricPhotosTab_off"/>
+                                                        <segment title="" image="Images_PerspectivesTab_off"/>
+                                                    </segments>
+                                                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <action selector="segmentedChanged:" destination="Oax-ab-pK6" eventType="valueChanged" id="r2j-CX-AlL"/>
+                                                    </connections>
+                                                </segmentedControl>
+                                            </navigationItem>
+                                        </items>
+                                    </navigationBar>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view hidden="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fkv-zd-OTl">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jxW-fM-51t">
+                                        <rect key="frame" x="14" y="40" width="996" height="600"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="zN1-40-8oC" appends="YES" id="dZQ-5o-rk9"/>
+                                            <outletCollection property="gestureRecognizers" destination="3UH-Qf-hIw" appends="YES" id="nc2-7s-3jE"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPadTopazArt5" translatesAutoresizingMaskIntoConstraints="NO" id="7rp-Uy-0b4">
+                                        <rect key="frame" x="940" y="20" width="64" height="64"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S6m-uG-o1S">
+                                        <rect key="frame" x="112" y="660" width="800" height="128"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrowleft-1" translatesAutoresizingMaskIntoConstraints="NO" id="9Dd-7G-V58">
+                                        <rect key="frame" x="0.0" y="325" width="59" height="72"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="KlN-mO-7gQ" appends="YES" id="oqn-dw-b8R"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrowright-1" translatesAutoresizingMaskIntoConstraints="NO" id="eqO-CM-scw">
+                                        <rect key="frame" x="965" y="325" width="59" height="72"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="AHh-Hj-n4j" appends="YES" id="dzK-Iy-YkZ"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="NrH-XU-5Bb" appends="YES" id="e6n-kL-Adn"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="collectionView" destination="hZc-91-bE8" id="rGg-pq-ska"/>
+                        <outlet property="imagePopView" destination="jxW-fM-51t" id="gIf-WV-6bj"/>
+                        <outlet property="lastButton" destination="9Dd-7G-V58" id="7kF-Ke-ehf"/>
+                        <outlet property="mainView" destination="lUd-mT-82i" id="ZA7-yV-CzQ"/>
+                        <outlet property="nextButton" destination="eqO-CM-scw" id="8DM-ZX-lWS"/>
+                        <outlet property="popTextView" destination="S6m-uG-o1S" id="Fkm-2j-YSh"/>
+                        <outlet property="popView" destination="Fkv-zd-OTl" id="r2f-BU-p2D"/>
+                        <outlet property="segmentedControl" destination="Me0-oz-1Me" id="8bC-AJ-xQV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uaF-yk-q1J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="VfU-pk-Rmh" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="NrH-XU-5Bb">
+                    <connections>
+                        <action selector="popClick:" destination="Oax-ab-pK6" id="gG4-uY-dAH"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="KlN-mO-7gQ">
+                    <connections>
+                        <action selector="lastAction:" destination="Oax-ab-pK6" id="KRa-Jc-FWe"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AHh-Hj-n4j">
+                    <connections>
+                        <action selector="nextAction:" destination="Oax-ab-pK6" id="oOs-9p-EH1"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="zN1-40-8oC">
+                    <connections>
+                        <action selector="swipping:" destination="Oax-ab-pK6" id="MYc-Mi-GKE"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="3UH-Qf-hIw">
+                    <connections>
+                        <action selector="swippingRight:" destination="Oax-ab-pK6" id="XbV-Kw-ZxN"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2420" y="532"/>
+        </scene>
+        <!--Digital Pres View Controller-->
+        <scene sceneID="QeJ-QQ-gV5">
+            <objects>
+                <viewController storyboardIdentifier="digitalPres" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Iux-vg-FwT" customClass="digitalPresViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="10K-vr-Amg"/>
+                        <viewControllerLayoutGuide type="bottom" id="sco-3T-OGn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D8a-D2-IbU">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TgT-0U-FHa">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="bl1-kh-dlg">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="ZQj-Hn-FgM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="vt3-ba-RJE"/>
+                                    <barButtonItem title="Back" id="0HQ-Uo-Y5F">
+                                        <connections>
+                                            <action selector="backRemove:" destination="Iux-vg-FwT" id="aef-hr-QWc"/>
+                                            <segue destination="ewE-nA-EdO" kind="unwind" unwindAction="unwindToViewController:" id="BwM-Rz-vyq"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="MUc-JF-g24"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="a2k-zK-btK"/>
+                                    <barButtonItem title="Help" width="55" id="hh7-Lv-kwO">
+                                        <connections>
+                                            <segue destination="IcE-Gv-0Jz" kind="show" id="GN2-fe-GNT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ndp-Vv-kNJ">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="556"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ipa-SU-5Ty">
+                                <rect key="frame" x="0.0" y="624" width="1024" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">CyArk founder, Ben Kacyra, speaks from the Sculptor's Studio at Mount Rushmore National Memorial about the importance of safeguarding our collective history by digitally preserving imporant cultural heritage monuments. Film by Mike Brooks of Historic Scotland. Music: 6 a.m taxi (Jahzzar) / &gt;CC BY-SA 3.0</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DigitalPreservationProject_buttons_1_on" translatesAutoresizingMaskIntoConstraints="NO" id="OlK-y1-4Pi">
+                                <rect key="frame" x="3" y="562" width="338" height="56"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="1bP-XR-EL2" appends="YES" id="Ab2-ur-nNQ"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DigitalPreservationProject_buttons_2" translatesAutoresizingMaskIntoConstraints="NO" id="Jhn-Fp-7BG">
+                                <rect key="frame" x="343" y="562" width="338" height="56"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qIJ-Yk-IKH" appends="YES" id="bzv-QQ-5Om"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DigitalPreservationProject_buttons_3" translatesAutoresizingMaskIntoConstraints="NO" id="cZ0-xH-R3Q">
+                                <rect key="frame" x="683" y="562" width="338" height="56"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="V4s-Ei-VzT" appends="YES" id="ySJ-FQ-Ckj"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="introDigiButton" destination="Jhn-Fp-7BG" id="Ss5-KN-fog"/>
+                        <outlet property="mainView" destination="D8a-D2-IbU" id="Bz8-Eq-ruq"/>
+                        <outlet property="movieView" destination="Ndp-Vv-kNJ" id="wLx-n7-gz6"/>
+                        <outlet property="scanDigiButton" destination="cZ0-xH-R3Q" id="jB3-Uc-O5i"/>
+                        <outlet property="textDigiView" destination="ipa-SU-5Ty" id="L2I-qN-MO3"/>
+                        <outlet property="whyDigiButton" destination="OlK-y1-4Pi" id="CK7-BJ-5YF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qwj-nf-ITI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ewE-nA-EdO" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="1bP-XR-EL2">
+                    <connections>
+                        <action selector="changeMoviewhyDigi:" destination="Iux-vg-FwT" id="vuL-Jg-4jG"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="qIJ-Yk-IKH">
+                    <connections>
+                        <action selector="changeMovieintroDigi:" destination="Iux-vg-FwT" id="cGS-tn-hih"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="V4s-Ei-VzT">
+                    <connections>
+                        <action selector="changeMoviescanDigi:" destination="Iux-vg-FwT" id="AZ9-M0-kUD"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2420" y="2204"/>
+        </scene>
+        <!--Movie View Controller-->
+        <scene sceneID="cX3-ot-rEQ">
+            <objects>
+                <viewController id="7CF-ZB-QAu" customClass="movieViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uDQ-9c-Md8"/>
+                        <viewControllerLayoutGuide type="bottom" id="TXz-ZA-l9c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TQD-xz-wyj">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jk6-8p-7Mf">
+                                <rect key="frame" x="0.0" y="626" width="1024" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Mount Rushmore, also known as the Shrine of Democracy, is a National Memorial depicting four of the most prominent presidents of the first 150 years of the United States - George Washington, Abraham Lincoln, Theodore Roosevelt, and Thomas Jefferson. Mount Rushmore was carved into South Dakota's Black Hills from 1927 to 1941 under the direction of sculptor Gutzon Borglum. The project took a team of 400 drillers and assistant carvers fourteen years to complete. Over 1.7 billion pounds of stone were removed using dynamite, detailed drilling, and finishing processes.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aPi-nB-gqJ">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="5Q8-v8-omT">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="Ztp-Wo-cUH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="yzH-7C-qqK"/>
+                                    <barButtonItem title="Back" id="MPp-tj-KaU">
+                                        <connections>
+                                            <segue destination="hOj-q8-ghf" kind="unwind" unwindAction="unwindToViewController:" id="zfA-F8-d5V"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="daj-I5-H0N"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="CHP-i9-jdZ"/>
+                                    <barButtonItem title="Help" width="55" id="72o-oN-26W">
+                                        <connections>
+                                            <segue destination="IcE-Gv-0Jz" kind="show" id="Ux7-kQ-5PS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="video_1_on" translatesAutoresizingMaskIntoConstraints="NO" id="xwm-bg-UDr">
+                                <rect key="frame" x="16" y="564" width="154" height="56"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wE2-sA-s65" appends="YES" id="YJ3-QF-6FA"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="video_2" translatesAutoresizingMaskIntoConstraints="NO" id="EG5-4s-Nna">
+                                <rect key="frame" x="178" y="564" width="154" height="56"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qJD-1j-0xH" appends="YES" id="LTb-aG-0MW"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="video_3" translatesAutoresizingMaskIntoConstraints="NO" id="Ujv-xD-HBB">
+                                <rect key="frame" x="340" y="564" width="154" height="56"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wf6-ML-Yqf" appends="YES" id="mEr-4S-cWK"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="video_4" translatesAutoresizingMaskIntoConstraints="NO" id="cJa-XJ-1A6">
+                                <rect key="frame" x="502" y="564" width="154" height="56"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fUQ-tk-iTb" appends="YES" id="0vL-6e-Ujy"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="video_5" translatesAutoresizingMaskIntoConstraints="NO" id="r8h-QC-cSu">
+                                <rect key="frame" x="664" y="564" width="154" height="56"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kbS-Lq-AJB" appends="YES" id="vkZ-dO-CD3"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="video_6" translatesAutoresizingMaskIntoConstraints="NO" id="OSx-mT-cMR">
+                                <rect key="frame" x="826" y="564" width="154" height="56"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZlV-9O-14e" appends="YES" id="Ryv-SZ-0Fe"/>
+                                </connections>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l5h-x2-VpT">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="556"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="AbLiButton" destination="cJa-XJ-1A6" id="rDU-FS-ZFL"/>
+                        <outlet property="GeWaButton" destination="EG5-4s-Nna" id="ma4-jo-Pxu"/>
+                        <outlet property="HaReButton" destination="OSx-mT-cMR" id="iQR-6d-3ja"/>
+                        <outlet property="MtScButton" destination="xwm-bg-UDr" id="jxV-7K-6zd"/>
+                        <outlet property="ThJeButton" destination="Ujv-xD-HBB" id="db7-iz-zQJ"/>
+                        <outlet property="ThRoButton" destination="r8h-QC-cSu" id="bM5-eV-M2C"/>
+                        <outlet property="mainView" destination="TQD-xz-wyj" id="oWW-Zi-XkN"/>
+                        <outlet property="movieView" destination="l5h-x2-VpT" id="vou-BW-oGe"/>
+                        <outlet property="textView" destination="jk6-8p-7Mf" id="rkB-Mr-Mpe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="luF-nn-Tad" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="hOj-q8-ghf" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="wE2-sA-s65">
+                    <connections>
+                        <action selector="changeMovieMtSc:" destination="7CF-ZB-QAu" id="5Z1-tS-FGk"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="qJD-1j-0xH">
+                    <connections>
+                        <action selector="changeMovieGeWa:" destination="7CF-ZB-QAu" id="Ftw-mb-Paq"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wf6-ML-Yqf">
+                    <connections>
+                        <action selector="changeMovieThJe:" destination="7CF-ZB-QAu" id="SNF-VZ-2Rc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="fUQ-tk-iTb">
+                    <connections>
+                        <action selector="changeMovieAbLi:" destination="7CF-ZB-QAu" id="jXd-2y-PGA"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="kbS-Lq-AJB">
+                    <connections>
+                        <action selector="changeMovieThRo:" destination="7CF-ZB-QAu" id="uCx-6x-Dok"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ZlV-9O-14e">
+                    <connections>
+                        <action selector="changeMovieHaRe:" destination="7CF-ZB-QAu" id="Hhm-z0-o6U"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2420" y="1361"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fyE-nh-VTd">
+            <objects>
+                <viewController storyboardIdentifier="Intro" id="dP5-ed-DSu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QuS-kl-34M"/>
+                        <viewControllerLayoutGuide type="bottom" id="G3E-9y-UZW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cqd-cK-LrW">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1_intro" translatesAutoresizingMaskIntoConstraints="NO" id="kDy-2h-FPE">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bX4-BF-i4m" appends="YES" id="Zec-5J-u1M"/>
+                                </connections>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYZ-ur-485">
+                                <rect key="frame" x="847" y="651" width="113" height="74"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vmM-sY-oXF" kind="show" id="1j3-2Z-uvH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6D4-Rc-36Z"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H1x-gC-kzA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bX4-BF-i4m">
+                    <connections>
+                        <segue destination="fww-WK-dS4" kind="show" identifier="forward" id="2H6-1r-187"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="165" y="1790"/>
+        </scene>
+        <!--BlackSmith-->
+        <scene sceneID="ZWy-vp-IAe">
+            <objects>
+                <viewController storyboardIdentifier="BlackSmith" title="BlackSmith" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kNg-DC-3Z2" userLabel="BlackSmith" customClass="ImageViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nBt-0W-XmK"/>
+                        <viewControllerLayoutGuide type="bottom" id="gf6-fP-3KF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="euR-bW-A4o">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4_blacksmith_navigation" translatesAutoresizingMaskIntoConstraints="NO" id="m19-5c-0Q2">
+                                <rect key="frame" x="0.0" y="-6" width="1024" height="774"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHT-9P-RyF">
+                                <rect key="frame" x="201" y="527" width="131" height="197"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="DrillBits" id="Weo-BF-OkA"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anl-BY-wo3">
+                                <rect key="frame" x="413" y="613" width="146" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="DrillHeads" id="Wop-hv-rOx"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2E-uH-c7j">
+                                <rect key="frame" x="315" y="360" width="146" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Crutch" id="kZO-Y7-aCG"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyw-n1-SmA">
+                                <rect key="frame" x="641" y="591" width="146" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="WedgeHeads" id="Mrj-vT-eew"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQE-M8-iio">
+                                <rect key="frame" x="780" y="254" width="115" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Handle" id="rdZ-WW-1w9"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ym-Ne-Wr4">
+                                <rect key="frame" x="648" y="241" width="104" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="MashBit" id="tAM-qK-viR"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ob-XK-NCm">
+                                <rect key="frame" x="476" y="241" width="146" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Hammer" id="tCF-5u-W7H"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymB-bE-Vm5">
+                                <rect key="frame" x="516" y="446" width="303" height="154"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Drill" id="qZY-7B-kDm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCo-2I-MEC">
+                                <rect key="frame" x="374" y="124" width="215" height="129"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="image1Click:" destination="kNg-DC-3Z2" eventType="touchUpInside" id="rkf-sm-rFh"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xC1-hu-JMI">
+                                <rect key="frame" x="362" y="467" width="146" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="HammerHeads" id="q6W-6L-xeT"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntS-Mx-IdZ">
+                                <rect key="frame" x="310" y="241" width="146" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Wrench" id="tHu-hu-iKK"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWw-Y9-THk">
+                                <rect key="frame" x="742" y="297" width="166" height="92"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Tong" id="8wu-LK-mEh"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfk-0K-j57">
+                                <rect key="frame" x="570" y="334" width="166" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Sledge" id="frc-tC-ept"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1H-uQ-c5E">
+                                <rect key="frame" x="589" y="316" width="216" height="129"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="image2Click:" destination="kNg-DC-3Z2" eventType="touchUpInside" id="I4e-dr-HAw"/>
+                                </connections>
+                            </button>
+                            <toolbar opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="imf-Q2-jfW">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="ptU-ry-Z5u">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="x8E-oB-jyt"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="qLq-Lg-xYQ"/>
+                                    <barButtonItem title="Back" id="iqR-AP-cZN">
+                                        <connections>
+                                            <segue destination="fww-WK-dS4" kind="show" identifier="back" id="wcG-hf-OJT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="buttonCrutch" destination="y2E-uH-c7j" id="kdz-BA-Kse"/>
+                        <outlet property="buttonDrill" destination="ymB-bE-Vm5" id="oqb-wk-s4X"/>
+                        <outlet property="buttonDrillBits" destination="kHT-9P-RyF" id="RTM-dy-N5W"/>
+                        <outlet property="buttonDrillHeads" destination="anl-BY-wo3" id="woF-Rb-kBH"/>
+                        <outlet property="buttonHammer" destination="7Ob-XK-NCm" id="dw7-Qj-fzj"/>
+                        <outlet property="buttonHammerHeads" destination="xC1-hu-JMI" id="8vA-5q-xGR"/>
+                        <outlet property="buttonHandle" destination="iQE-M8-iio" id="xN6-FI-SUy"/>
+                        <outlet property="buttonMashBit" destination="9Ym-Ne-Wr4" id="340-MD-7bQ"/>
+                        <outlet property="buttonSledge" destination="jfk-0K-j57" id="I53-21-oeV"/>
+                        <outlet property="buttonTong" destination="wWw-Y9-THk" id="0WN-YE-kwo"/>
+                        <outlet property="buttonWedgeHeads" destination="Yyw-n1-SmA" id="fGe-MZ-jWv"/>
+                        <outlet property="buttonWrench" destination="ntS-Mx-IdZ" id="DKR-wt-7v5"/>
+                        <outlet property="imageView" destination="m19-5c-0Q2" id="hVE-W6-NUK"/>
+                        <outlet property="mainView" destination="euR-bW-A4o" id="sa0-lC-wCb"/>
+                        <outlet property="startAnimation1" destination="HCo-2I-MEC" id="4UF-mR-rUA"/>
+                        <outlet property="startAnimation2" destination="b1H-uQ-c5E" id="VHb-Ij-QLn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cic-vb-o6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2420" y="3954"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ale-SW-jus">
+            <objects>
+                <viewController storyboardIdentifier="Map" id="fww-WK-dS4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JAT-Oj-ZAk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yfd-Vy-Pos"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qbu-zl-HSE">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2_top_level_navigation" translatesAutoresizingMaskIntoConstraints="NO" id="vBc-ga-xQd">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dEK-5d-z5E">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="Cpd-io-2sG">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" identifier="back" id="gch-vV-0cN"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="Heh-w1-Ehy"/>
+                                    <barButtonItem title="Back" id="jlb-pD-vsy">
+                                        <connections>
+                                            <segue destination="dP5-ed-DSu" kind="show" id="SdL-0U-0O0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivb-M3-d4e">
+                                <rect key="frame" x="227" y="28" width="308" height="258"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="K2h-5A-7KC" kind="show" identifier="back" id="aML-J0-umJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdw-lT-Jgp">
+                                <rect key="frame" x="587" y="429" width="292" height="295"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kNg-DC-3Z2" kind="show" identifier="forward" id="ceB-gd-e7Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xa-vD-goc">
+                                <rect key="frame" x="609" y="197" width="235" height="212"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="giJ-fE-2J3" kind="show" id="Yiy-IZ-kbx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zK6-ft-wPj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1306" y="3104"/>
+        </scene>
+        <!--Outside-->
+        <scene sceneID="ZnL-fo-seX">
+            <objects>
+                <viewController storyboardIdentifier="Outside" title="Outside" useStoryboardIdentifierAsRestorationIdentifier="YES" id="giJ-fE-2J3" userLabel="Outside" customClass="ImageViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GJh-j3-QvZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="RwW-RK-9hh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s8n-q7-Ha5">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hrg-Bm-LgQ">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="nOM-Tl-m9O">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="1X8-ll-ckv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="5kv-nL-zwP"/>
+                                    <barButtonItem title="Back" id="Cl9-Vh-W8E">
+                                        <connections>
+                                            <segue destination="fww-WK-dS4" kind="show" identifier="back" id="Nt6-I0-uhz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9_winch_house" translatesAutoresizingMaskIntoConstraints="NO" id="rFj-pd-BQK">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="724"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Y8-cw-4NI">
+                                <rect key="frame" x="412" y="187" width="241" height="205"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="WinchMotor" id="KhC-2X-uVG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eX6-gd-91h">
+                                <rect key="frame" x="694" y="347" width="83" height="59"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Bricks" id="iIX-2W-DMT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbX-ge-mTb">
+                                <rect key="frame" x="799" y="308" width="66" height="51"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Pulley" id="rxL-iM-YSn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rg-Wx-asb">
+                                <rect key="frame" x="886" y="225" width="115" height="126"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Winch" id="TWp-24-yBz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CC8-KJ-hJr">
+                                <rect key="frame" x="824" y="415" width="140" height="101"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="HoneyComb" id="Hk7-Ia-v1N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kuC-Kg-7Y1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2420" y="3104"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="nYg-VI-Wpq">
+            <objects>
+                <viewController storyboardIdentifier="ModelView" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1MQ-7e-cJZ" customClass="GameViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BaI-Ni-hDC"/>
+                        <viewControllerLayoutGuide type="bottom" id="P7A-45-hhm"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="EaE-tZ-956">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axa-kd-mnQ">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="iOn-nh-Zg2">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="show" identifier="restart" id="6s1-eH-yDq"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="Ktn-gI-q75"/>
+                                    <barButtonItem title="Back" id="qUK-P8-7Zx" userLabel="Back">
+                                        <connections>
+                                            <action selector="backButton:" destination="1MQ-7e-cJZ" id="tgX-Oc-hRj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" loops="NO" sceneName="" allowsCameraControl="YES" wantsMultisampling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-JL-sti">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="624"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </sceneKitView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHp-ee-Ivo">
+                                <rect key="frame" x="25" y="25" width="400" height="50"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="24"/>
+                                <color key="textColor" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNm-gm-c9A">
+                                <rect key="frame" x="0.0" y="334" width="116" height="65"/>
+                                <state key="normal" image="arrown_left">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="lastModelClick:" destination="1MQ-7e-cJZ" eventType="touchUpInside" id="3zR-aE-X9w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brc-xA-SUQ">
+                                <rect key="frame" x="907" y="334" width="116" height="65"/>
+                                <state key="normal" image="arrown_right">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nexModelClick:" destination="1MQ-7e-cJZ" eventType="touchUpInside" id="xBj-Gu-kpd"/>
+                                </connections>
+                            </button>
+                            <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l7y-P9-l9W">
+                                <rect key="frame" x="0.0" y="621" width="705" height="104"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pulley 1_thumb" translatesAutoresizingMaskIntoConstraints="NO" id="tQ6-tf-qoE">
+                                <rect key="frame" x="745" y="645" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HMl-Yb-fBR" appends="YES" id="Pt2-X6-Pvz"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pulley 2_thumb" translatesAutoresizingMaskIntoConstraints="NO" id="KqS-Ms-dwk">
+                                <rect key="frame" x="880" y="645" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AJY-2B-KKa" appends="YES" id="cea-iK-j4Z"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transparent_bg" translatesAutoresizingMaskIntoConstraints="NO" id="oEH-vs-GHK">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="3Oa-kR-etY">
+                                <rect key="frame" x="502" y="374" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n6p-qp-pkO">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transparent_bg" translatesAutoresizingMaskIntoConstraints="NO" id="bEG-i7-LAd">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6338 MORU" translatesAutoresizingMaskIntoConstraints="NO" id="uhf-tg-zIJ">
+                                        <rect key="frame" x="128" y="40" width="768" height="576"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPadTopazArt5" translatesAutoresizingMaskIntoConstraints="NO" id="KTk-Qz-Lvb">
+                                        <rect key="frame" x="930" y="30" width="64" height="64"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Qq-0H-1Ih">
+                                        <rect key="frame" x="128" y="615" width="768" height="100"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="FXb-zE-m7Q" appends="YES" id="aAl-lR-p9b"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="arrowButtonLeft" destination="UNm-gm-c9A" id="Q01-Zj-6r1"/>
+                        <outlet property="arrowButtonRight" destination="brc-xA-SUQ" id="zrS-b3-PrA"/>
+                        <outlet property="image1View" destination="tQ6-tf-qoE" id="lKV-T4-woA"/>
+                        <outlet property="image2View" destination="KqS-Ms-dwk" id="fni-A3-afc"/>
+                        <outlet property="imagePopView" destination="uhf-tg-zIJ" id="uYe-BP-CGl"/>
+                        <outlet property="loadingBGView" destination="oEH-vs-GHK" id="6h6-oU-qOl"/>
+                        <outlet property="loadingView" destination="3Oa-kR-etY" id="uCJ-vc-5SM"/>
+                        <outlet property="mainView" destination="EaE-tZ-956" id="wT2-7e-B8K"/>
+                        <outlet property="popTextView" destination="6Qq-0H-1Ih" id="1c5-RE-b6y"/>
+                        <outlet property="popView" destination="n6p-qp-pkO" id="0j9-k4-nzK"/>
+                        <outlet property="sceneView" destination="JsL-JL-sti" id="YV6-T2-Yov"/>
+                        <outlet property="textView" destination="l7y-P9-l9W" id="VC1-vS-KFS"/>
+                        <outlet property="titleText" destination="PHp-ee-Ivo" id="9dc-CQ-QV7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q3r-el-uA3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HMl-Yb-fBR">
+                    <connections>
+                        <action selector="image1Click:" destination="1MQ-7e-cJZ" id="odd-m8-uTU"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AJY-2B-KKa">
+                    <connections>
+                        <action selector="image2Click:" destination="1MQ-7e-cJZ" id="7fW-QZ-NL2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="FXb-zE-m7Q">
+                    <connections>
+                        <action selector="popClick:" destination="1MQ-7e-cJZ" id="jlA-fL-2D0"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3813" y="3560"/>
+        </scene>
+        <!--Outside-->
+        <scene sceneID="ARW-rH-mce">
+            <objects>
+                <viewController storyboardIdentifier="Studio" title="Studio" useStoryboardIdentifierAsRestorationIdentifier="YES" id="K2h-5A-7KC" userLabel="Outside" customClass="ImageViewController" customModule="Rushmore_Swift3D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AcY-c6-5cF"/>
+                        <viewControllerLayoutGuide type="bottom" id="DZI-8H-JQY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NUC-8w-s6E">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VX2-pB-1vF">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <items>
+                                    <barButtonItem title="Start Over" id="WZK-Oa-mkI">
+                                        <connections>
+                                            <segue destination="vmM-sY-oXF" kind="showDetail" identifier="restart" id="tuV-A4-EfS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="|" id="Vt4-I2-9eF"/>
+                                    <barButtonItem title="Back" id="ign-ul-ewc">
+                                        <connections>
+                                            <segue destination="fww-WK-dS4" kind="show" identifier="back" id="hLm-Ri-dfC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3_sculptors_studio" translatesAutoresizingMaskIntoConstraints="NO" id="x3S-Gp-XzJ">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="724"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIH-qw-LAa">
+                                <rect key="frame" x="150" y="326" width="116" height="117"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="JeffHead" id="cdd-xA-glt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9c-wz-icQ">
+                                <rect key="frame" x="325" y="254" width="251" height="195"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Sculpture" id="Xj9-qy-vS3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7K-l0-wKq">
+                                <rect key="frame" x="592" y="338" width="75" height="124"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="WashHead" id="l5s-Jm-y7E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxj-xH-cga">
+                                <rect key="frame" x="880" y="326" width="128" height="181"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="LinkHead" id="8uX-AX-gzJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tO1-W5-fKR">
+                                <rect key="frame" x="723" y="294" width="141" height="77"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1MQ-7e-cJZ" kind="show" identifier="Protractor" id="j0a-gT-gYA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2WT-uQ-an6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2426" y="4796"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="0_dual_intro" width="1024" height="768"/>
+        <image name="1_intro" width="1024" height="768"/>
+        <image name="2_top_level_navigation" width="1024" height="768"/>
+        <image name="3_sculptors_studio" width="1024" height="768"/>
+        <image name="4_blacksmith_navigation" width="1024" height="768"/>
+        <image name="6338 MORU" width="1024" height="811"/>
+        <image name="9_winch_house" width="1024" height="768"/>
+        <image name="DigitalPreservationProject_buttons_1_on" width="328" height="68"/>
+        <image name="DigitalPreservationProject_buttons_2" width="333" height="68"/>
+        <image name="DigitalPreservationProject_buttons_3" width="329" height="68"/>
+        <image name="DigitalPreservation_CDDV_off" width="337" height="154"/>
+        <image name="DigitalPreservation_CyArk_off" width="333" height="154"/>
+        <image name="DigitalPreservation_NPS_off" width="331" height="154"/>
+        <image name="DigitalPreservation_mainbanner" width="1024" height="173"/>
+        <image name="Images_HistoricPhotosTab_off" width="331" height="68"/>
+        <image name="Images_PerspectivesTab_off" width="304" height="68"/>
+        <image name="Images_PhotosTab_on" width="337" height="68"/>
+        <image name="Main-Page_banner" width="1024" height="576"/>
+        <image name="Main-Page_button2" width="1024" height="192"/>
+        <image name="Main_Buttons_DigitalPreservationProject" width="258" height="219"/>
+        <image name="Main_Buttons_Photos" width="247" height="219"/>
+        <image name="Main_Buttons_Videos" width="241" height="219"/>
+        <image name="Main_Buttons_VirtualTour" width="250" height="219"/>
+        <image name="Pulley 1_thumb" width="200" height="159"/>
+        <image name="Pulley 2_thumb" width="200" height="150"/>
+        <image name="arrowleft-1" width="59" height="72"/>
+        <image name="arrown_left" width="61" height="65"/>
+        <image name="arrown_right" width="61" height="65"/>
+        <image name="arrowright-1" width="55" height="72"/>
+        <image name="banner_0" width="1024" height="494"/>
+        <image name="banner_1" width="1024" height="494"/>
+        <image name="banner_2" width="1024" height="494"/>
+        <image name="banner_3" width="1024" height="494"/>
+        <image name="banner_4" width="1024" height="494"/>
+        <image name="banner_5" width="1024" height="494"/>
+        <image name="banner_6" width="1024" height="494"/>
+        <image name="iPadTopazArt5" width="64" height="64"/>
+        <image name="transparent_bg" width="5" height="5"/>
+        <image name="video_1_on" width="154" height="56"/>
+        <image name="video_2" width="154" height="56"/>
+        <image name="video_3" width="154" height="56"/>
+        <image name="video_4" width="154" height="56"/>
+        <image name="video_5" width="154" height="56"/>
+        <image name="video_6" width="154" height="56"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="uVn-Xd-H2g"/>
+        <segue reference="6s1-eH-yDq"/>
+        <segue reference="l5s-Jm-y7E"/>
+        <segue reference="wcG-hf-OJT"/>
+        <segue reference="SdL-0U-0O0"/>
+        <segue reference="Rad-is-AZu"/>
+    </inferredMetricsTieBreakers>
+</document>
